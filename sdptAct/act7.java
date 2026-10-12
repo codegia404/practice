@@ -15,17 +15,19 @@ public class act7 {
 
             if (answer.equalsIgnoreCase(correctAns)){
                 System.out.println("you are correct!");
-                System.out.println("CONGRATS! you won!");
                 break;
                 
             } else {
-                System.out.println(" incorrect try again");
+                System.out.println(" incorrect! try again");
                 lives--;
                 
             }
             
 
         } while (lives > 0);
+
+        if (lives > 0)  System.out.println("you won!");
+        else System.out.println("you lost!");
 
         
         
