@@ -18,7 +18,7 @@ public class act7 {
                 break;
                 
             } else {
-                System.out.println(" incorrect! try again");
+                System.out.println();
                 lives--;
                 
             }
