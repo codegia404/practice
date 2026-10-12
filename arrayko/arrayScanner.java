@@ -1,10 +1,12 @@
-import java.util.Scanner;
-import java.util.Arrays;
+package arrayko;
 
+import java.util.*;
 
-class arrayNako {
-    public static void main (String[] args) {
-        
+public class arrayScanner {
+
+        public static void main(String[] args) {
+                
+    
         Scanner scanner = new Scanner(System.in);
         int num1, num2, num3;
 
@@ -18,17 +20,9 @@ class arrayNako {
         num3 = scanner.nextInt();
 
         int a[] = {num1,num2,num3};
-        Arrays.sort(a);
-
-        System.out.println("Sort number: " + Arrays.toString(a) );
-
-        
         
 
-
-
-
-
-    }
-
+        System.out.println("Sort number: "  );
+        System.out.println( a[0]);
+}
 }
